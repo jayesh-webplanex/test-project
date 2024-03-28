@@ -2,7 +2,6 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import 'holderjs'
 import NavBar from '../../components/navbar';
 import Footer from '../../components/footer';
 import Accordion from 'react-bootstrap/Accordion';
@@ -22,7 +21,7 @@ function About() {
 
       <Row>
         <Col>
-          <Card style={{ width: '18rem' }}>
+          <Card>
             <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
             <Card.Body>
               <Card.Title>Card Title</Card.Title>
@@ -43,7 +42,7 @@ function About() {
           </Card>
        </Col>
        <Col>
-          <Card style={{ width: '18rem' }}>
+          <Card>
             <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
             <Card.Body>
               <Card.Title>Card Title</Card.Title>
@@ -64,7 +63,7 @@ function About() {
           </Card>
        </Col>
        <Col>
-          <Card style={{ width: '18rem' }}>
+          <Card>
             <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
             <Card.Body>
               <Card.Title>Card Title</Card.Title>

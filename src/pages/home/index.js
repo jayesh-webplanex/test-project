@@ -4,7 +4,6 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import 'bootstrap/dist/css/bootstrap.min.css';
-//import 'holderjs'
 import NavBar from '../../components/navbar';
 import Footer from '../../components/footer';
 import React, {useEffect } from "react";
@@ -27,7 +26,7 @@ function Home() {
         <h1 className='mb-5'>Home</h1>
         <Row>
             <Col>
-            <Card style={{ width: '20rem' }}>
+            <Card>
             <Card.Img variant="top" src="holder.js/100px180"  />
             <Card.Body>
                 <Card.Title>Card Title</Card.Title>
@@ -40,7 +39,7 @@ function Home() {
             </Card>
             </Col>
             <Col>
-            <Card style={{ width: '20rem' }}>
+            <Card>
             <Card.Img variant="top" src="holder.js/100px180" />
             <Card.Body>
                 <Card.Title>Card Title</Card.Title>
@@ -53,7 +52,7 @@ function Home() {
             </Card>
             </Col>
             <Col>
-            <Card style={{ width: '20rem' }}>
+            <Card>
             <Card.Img variant="top" src="holder.js/100px180" />
             <Card.Body>
                 <Card.Title>Card Title</Card.Title>
